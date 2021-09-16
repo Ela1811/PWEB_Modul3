@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Destinasi Wisata di Kota Jember</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet"> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<title>Destinasi Wisata di Kota Jember</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <h1><center>Destinasi Wisata di Kota Jember</center></h1>
-    </header>
-    <section>
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="papuma.html">Pantai Papuma</a></li>
-                    <li><a href="botani.html">Botanical Garden</a></li>
-                    <li><a href="rembangan.html">Rembangan </a></li>
-                </ul>
-            </nav>
-        </aside>
-        <article>
-            <main>
-                <h2><center>Sukorambi Botanical Garden</center></h2>
-                <p>Taman Botani Sukorambi terletak di Jalan Mujahir, Sukorambi, Jember, Jawa Timur, Indonesia, sekitar 7 kilometer (4,3 mil) di sebelah barat Kota Jember.Taman seluas 8 hektare (20 ekar) ini terletak di kaki bukit yang titik terendahnya kurang lebih 100 meter (330 ft) di atas permukaan laut. Bagian atas dan bawah taman terhubung oleh anak tangga dan jalan setapak. Jalan setapak tersebut boleh digunakan oleh sepeda motor untuk mengangkut pengunjung</p>
-                <figure>
-                 <div class="slides">
-                    <center><img class="slide"
+	<header>
+		<h1>
+			<center>Destinasi Wisata di Kota Jember</center>
+		</h1>
+	</header>
+	<section>
+		<aside>
+			<nav>
+				<ul>
+					<li><a href="index.html">Pantai Papuma</a></li>
+					<li><a href="botani.html">Botanical Garden</a></li>
+					<li><a href="rembangan.html">Rembangan </a></li>
+				</ul>
+			</nav>
+		</aside>
+		<article>
+			<main>
+				<h2>
+					<center>Sukorambi Botanical Garden</center>
+				</h2>
+				<p>Taman Botani Sukorambi terletak di Jalan Mujahir, Sukorambi, Jember, Jawa Timur, Indonesia, sekitar 7 kilometer (4,3
+					mil) di sebelah barat Kota Jember.Taman seluas 8 hektare (20 ekar) ini terletak di kaki bukit yang titik terendahnya
+					kurang lebih 100 meter (330 ft) di atas permukaan laut. Bagian atas dan bawah taman terhubung oleh anak tangga dan jalan
+					setapak. Jalan setapak tersebut boleh digunakan oleh sepeda motor untuk mengangkut pengunjung</p>
+				<figure>
+					<div class="slides">
+						<center><img class="slide"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sukorambi_Botanical_Garden%2C_Jember%2C_2014-01-20_05.jpg/1280px-Sukorambi_Botanical_Garden%2C_Jember%2C_2014-01-20_05.jpg" alt=""></center>
                     <center><img class="slide" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sukorambi_Botanical_Garden%2C_Jember%2C_2014-01-20_08.jpg/1280px-Sukorambi_Botanical_Garden%2C_Jember%2C_2014-01-20_08.jpg" alt=""></center>
                   </div>
+                  <center><button onclick="geser(-1)" class="previous">&#10094;</button>
+                  <button onclick="geser(1)" class="next">&#10095;</button></center>
                 </figure>
-                <p>Taman ini dikelilingi oleh sawah dan sebagian wilayahnya merupakan hutan. Selain tempat wisata alam flora dan fauna, taman botani ini juga memiliki kolam ikan, kolam renang (untuk dewasa dan anak), kafe dan restoran dua lantai, perpusatkaan yang berisi 500 buku dan jurnal, dan ruang pertemuan. Aktivitas rekreasinya meliputi olahraga air dan flying fox</p>
+                <p class="readmore">Taman ini dikelilingi oleh sawah dan sebagian wilayahnya merupakan hutan. Selain tempat wisata alam flora dan fauna, taman botani ini juga memiliki kolam ikan, kolam renang (untuk dewasa dan anak), kafe dan restoran dua lantai, perpusatkaan yang berisi 500 buku dan jurnal, dan ruang pertemuan. Aktivitas rekreasinya meliputi olahraga air dan flying fox.</p>
+                <button class="tombol">Baca Selengkapnya...</button>
             </main>
         </article>
     </section>
     <footer>
         <center>by Ela Risti</center>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
